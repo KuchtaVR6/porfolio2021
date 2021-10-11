@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html data-scroll="0">
 
 <head lang="en">
     <meta charset="utf-8">
@@ -34,7 +34,7 @@
 
 <body>
     <div class="container-fluid p-0 m-0 w-100 d-inline">
-        <div class="row p-0 m-0" id="intro">
+        <div class="row pt-1 m-0" id="intro">
             <div class="col-md-5">
             </div>
             <div class="col-md-5" id="intro_text">
@@ -49,6 +49,10 @@
                     (Teaching Assistant)
                     put me on the right track to achieve success in my life.
                 </p>
+                <a class="button-13" href="#education">Education</a>
+                <a class="button-13" href="#experience">Experience</a>
+                <a class="button-13" href="#certification">Certificates</a>
+                <a class="button-13" href="#skills">Skills</a>
             </div>
             <div class="col-md-2">
             </div>
@@ -56,12 +60,12 @@
         <div class="row p-0 m-0" id="education">
             <div class="col-md-2">
             </div>
-            <div class="col-md-3" id="edu_text">
+            <div class="col-md-3 white_text">
                 <h1>
                     <b>"An investment in knowledge pays the best interest."</b> <i>Benjamin Franklin</i>
                 </h1>
             </div>
-            <div class="col-md-5" id="edu_text">
+            <div class="col-md-5 white_text">
                 <p style="text-align:left;">
                     Second year student at Queen Mary University, London
                     <span style="float:right;">
@@ -86,7 +90,7 @@
         <div class="row p-0 m-0" id="experience">
             <div class="col-md-1"></div>
             <div class="col-md-10">
-                <h1 id="exp_head">
+                <h1 class="colour_head">
                     My professional experience
                 </h1>
                 <p id="exp_text">
@@ -98,7 +102,7 @@
                     ability to explain concepts to a 'non-IT' crowd, and leading a team.
                 </p>
                 <div class="row pt-4 m-0">
-                    <div class="col-md-6 block p-2">
+                    <div class="col-md-6 p-2">
                         <div class="binner">
                             <p style="text-align:left;">
                                 <b>Demonstrator at Queen Mary University in London</b>
@@ -115,7 +119,7 @@
                             </p>
                         </div>
                     </div>
-                    <div class="col-md-6 block p-2">
+                    <div class="col-md-6 p-2">
                         <div class="binner">
                             <p style="text-align:left;">
                                 <b>Customer Assistant at Morrisons in London</b>
@@ -126,7 +130,7 @@
                                 <b>
                                     • Provided friendly and efficient customer service<br>
                                     • Prepared and packed online shopping in a timely manner<br>
-                                    • Had a daily duty of thoroughly checking the freshness of products
+                                    • Had a daily duty of thoroughly checking the freshness of products<br>
                                     • Worked on minimizing losses and food waste
                                 </b>
                             </p>
@@ -135,7 +139,7 @@
                 </div>
                 <div class="row p-0 m-0">
                     <div class="col-md-3"></div>
-                    <div class="col-md-6 block p-2">
+                    <div class="col-md-6 p-2">
                         <div class="binner">
                             <p style="text-align:left;">
                                 <b>Coding Tutor at Kodland in London</b>
@@ -150,13 +154,7 @@
                                 </b>
                             </p>
                         </div>
-                    </div>
-                    <div class="col-md-3"></div>
-                </div>
-                <div class="row pb-5 m-0">
-                    <div class="col-md-3"></div>
-                    <div class="col-md-6 block p-2">
-                        <div class="binner">
+                        <div class="binner mt-4">
                             <p style="text-align:left;">
                                 <b>Customer Assistant at McDonald’s Restaurant, Warsaw</b>
                                 <span style="float:right;">
@@ -174,9 +172,173 @@
                     </div>
                     <div class="col-md-3"></div>
                 </div>
+                <div class="row pb-5 m-0">
+                    <div class="col-md-3"></div>
+                    <div class="col-md-6 p-2">
+                    </div>
+                    <div class="col-md-3"></div>
+                </div>
             </div>
             <div class="col-md-1"></div>
         </div>
+        <div class="row p-0 m-0" id="certification">
+            <div class="col-md-2">
+            </div>
+            <div class="col-md-2 white_text">
+                <h1>
+                    <b>Acquired certification</b>
+                </h1>
+            </div>
+            <div class="col-md-3 white_text">
+                <p style="text-align:left;">
+                    IELTS Academic C1
+                    <span style="float:right;">
+                        <b>2020</b>
+                    </span><br>
+                    Listening: 9.0, Reading: 8.0, Writing: 6.5, Speaking: 7.0, Overall: 7.5
+                </p>
+                <hr>
+                <p style="text-align:left;">
+                    Project Management Principles
+                    <span style="float:right;">
+                        <b>2019</b>
+                    </span>
+                </p>
+            </div>
+            <div class="col-md-3 white_text">
+                <p style="text-align:left;">
+                    Full EU Driver’s License
+                    <span style="float:right;">
+                        <b>2015 and 2019</b>
+                    </span><br>
+                    AM and B Categories.
+                </p>
+                <hr>
+                <p style="text-align:left;">
+                    Project Management Fundamentals
+                    <span style="float:right;">
+                        <b>2019</b>
+                    </span>
+                </p>
+            </div>
+            <div class="col-md-2">
+            </div>
+        </div>
+        <div class="row p-0 m-0" id="skills">
+            <div class="col-md-1">
+
+            </div>
+            <div class="col-md-10">
+                <h1 class="colour_head">
+                    Some of the skills, that I have gained throught my life.
+                </h1>
+                <h1 class="colour_head">
+                    Programming languages
+                </h1>
+                <div class="row p-0 m-0">
+                    <div class="col-md-2">
+                        <div class="binner">
+                            <img src="images/java.png" class="skillico" alt="java">
+                        </div>
+                    </div>
+                    <div class="col-md-2">
+                        <div class="binner">
+                            <img src="images/python.png" class="skillico" alt="python">
+                        </div>
+                    </div>
+                    <div class="col-md-2">
+                        <div class="binner">
+                            <img src="images/cpp.png" class="skillico" alt="cpp">
+                        </div>
+                    </div>
+                    <div class="col-md-2">
+                        <div class="binner">
+                            <img src="images/sql.png" class="skillico" alt="sql">
+                        </div>
+                    </div>
+                    <div class="col-md-2">
+                        <div class="binner">
+                            <img src="images/javascript.png" class="skillico" alt="javascript">
+                        </div>
+                    </div>
+                    <div class="col-md-2">
+                        <div class="binner">
+                            <img src="images/php.png" class="skillico" alt="php">
+                        </div>
+                    </div>
+                </div>
+                <div class="row pt-4 m-0">
+                    <div class="col-md-2">
+                    </div>
+                    <div class="col-md-2">
+                    </div>
+                    <div class="col-md-2">
+                        <div class="binner">
+                            <img src="images/html.png" class="skillico" alt="html">
+                        </div>
+                    </div>
+                    <div class="col-md-2">
+                        <div class="binner">
+                            <img src="images/css.png" class="skillico" alt="css">
+                        </div>
+                    </div>
+                    <div class="col-md-2">
+                    </div>
+                    <div class="col-md-2">
+                    </div>
+                </div>
+                <h1 class="colour_head">
+                    Languages
+                </h1>
+                <div class="row pb-5 m-0">
+                    <div class="col-md-4">
+                        <div class="binner">
+                            <p style="font-size: 170%; text-align:left;">
+                                <b>
+                                    English
+                                    <hr>
+                                    Advanced
+                                </b>
+                                <span style="float:right;">
+                                    <b>C1</b>
+                                </span>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="binner">
+                            <p style="font-size: 170%; text-align:left;">
+                                <b>
+                                    Polish
+                                    <hr>
+                                    Native
+                                </b>
+                                <span style="float:right;">
+                                    <b>C2</b>
+                                </span>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="binner">
+                            <p style="font-size: 170%; text-align:left;">
+                                <b>
+                                    German
+                                    <hr>
+                                    Intermediate
+                                </b>
+                                <span style="float:right;">
+                                    <b>B2</b>
+                                </span>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-1">
+            </div>
+        </div>
+        <h1 class="white_text">WORK IN PROGRESS</h1>
     </div>
 </body>
 
