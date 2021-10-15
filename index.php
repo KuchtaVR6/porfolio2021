@@ -32,6 +32,39 @@
         rel="stylesheet">
 </head>
 
+<html data-scroll="0">
+
+<head lang="en">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Patryk Kuchta</title>
+    <link rel="stylesheet" href="stylesheets/reset.css" type="text/css" />
+    <link rel="stylesheet" href="stylesheets/style.css" type="text/css" />
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Gemunu+Libre:wght@200;300&family=Mulish:wght@300;500&display=swap"
+        rel="stylesheet">
+</head>
+
 <body>
     <div class="container-fluid p-0 m-0 w-100 d-inline">
         <div class="row pt-1 m-0" id="intro">
@@ -224,7 +257,7 @@
             <div class="col-md-2">
             </div>
         </div>
-        <div class="row p-0 m-0" id="skills">
+        <div class="row pb-5 m-0" id="skills">
             <div class="col-md-1">
 
             </div>
@@ -290,7 +323,7 @@
                 <h1 class="colour_head">
                     Languages
                 </h1>
-                <div class="row pb-5 m-0">
+                <div class="row p-0 m-0">
                     <div class="col-md-4">
                         <div class="binner">
                             <p style="font-size: 170%; text-align:left;">
@@ -333,6 +366,41 @@
                             </p>
                         </div>
                     </div>
+                </div>
+                <h1 class="colour_head">
+                    Other Skills
+                </h1>
+                <div id="minorskills">
+                    <div class="smallcont">
+                        <b>
+                            Ability to work in fast-paced environments
+                        </b>
+                    </div>
+                    <div class="smallcont">
+                        <b>
+                            Great communication skills and ability to work in team
+                        </b>
+                    </div>
+                    <div class="smallcont">
+                        <b>
+                            Proficiency in using Microsoft Office and Linux
+                        </b>
+                    </div>
+                    <div class="smallcont">
+                        <b>
+                            Ability to solder, build PCs, diagnose and repair computers
+                        </b>
+                    </div>
+                    <div class="smallcont">
+                        <b>
+                            Great photo and video editing skills
+                        </b>
+                    </div>
+                    <div class="smallcont">
+                        <b>
+                            Vast knowledge in consumer electronics, motorbikes and cars
+                        </b>
+                    </div>  
                 </div>
             </div>
             <div class="col-md-1">
