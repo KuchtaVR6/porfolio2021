@@ -1,37 +1,6 @@
 <!DOCTYPE html>
 <html data-scroll="0">
 
-<head lang="en">
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Patryk Kuchta</title>
-    <link rel="stylesheet" href="stylesheets/reset.css" type="text/css" />
-    <link rel="stylesheet" href="stylesheets/style.css" type="text/css" />
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
-        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-        crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
-        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
-        crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
-        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
-        crossorigin="anonymous"></script>
-
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap" rel="stylesheet">
-
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Gemunu+Libre:wght@200;300&family=Mulish:wght@300;500&display=swap"
-        rel="stylesheet">
-</head>
-
 <html data-scroll="0">
 
 <head lang="en">
@@ -86,6 +55,9 @@
                 <a class="button-13" href="#experience">Experience</a>
                 <a class="button-13" href="#certification">Certificates</a>
                 <a class="button-13" href="#skills">Skills</a>
+                <a class="button-13" href="#projects">Projects</a>
+                <a class="button-13" href="#hobbies">Hobbies</a>
+                <a class="button-13" href="#contact">Contact</a>
             </div>
             <div class="col-md-2">
             </div>
@@ -400,13 +372,123 @@
                         <b>
                             Vast knowledge in consumer electronics, motorbikes and cars
                         </b>
-                    </div>  
+                    </div>
                 </div>
             </div>
             <div class="col-md-1">
             </div>
         </div>
-        <h1 class="white_text">WORK IN PROGRESS</h1>
+        <div class="row p-0 m-0" id="projects">
+            <div class="col-md-1">
+            </div>
+            <div class="col-md-10 white_text">
+                <h2>Some of my most intresting projects</h2>
+                <div class="row p-0 m-0">
+                    <div class="col-md-6">
+                        <div class="project">
+                            <h1>This portfolio website</h1>
+                            <div class="row p-0 m-0">
+                                <div class="col-md-6">
+                                    <img src="images/port1.png" class="imgproject">
+                                </div>
+                                <div class="col-md-6 projecttext">
+                                    <p>
+                                        This website was created with a clear and elegant design in mind. This meant
+                                        reducing flamboyant animations and effects to the minimum as that would make it
+                                        harder the convey the message. To create this website I have used HTML, CSS and
+                                        Bootstrap. The absence of javascript is to ensure maximum optimisation and
+                                        compatibility. Furthermore, this will mean that this website will be very
+                                        responsive no matter what device is being used. Use of Bootstrap only adds to
+                                        the compatibility argument.
+                                        <br>
+                                        <br>
+                                        <a href="">Go back to the top</a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="project">
+                            <h1>A portfolio website for an Architect</h1>
+                            <div class="row p-0 m-0">
+                                <div class="col-md-6">
+                                    <img src="images/port2.png" class="imgproject">
+                                </div>
+                                <div class="col-md-6 projecttext">
+                                    <p>
+                                        Another professional website, that I have created is a portfolio website for an
+                                        Architect. The design was a vital part of the whole experience as an Architect
+                                        needs to exhibit their design language. The creation of this website involved
+                                        using HTML, CSS and Javascript. Javascript is mainly used for the integrated
+                                        gallery view of each project. Whilst I didn't come up with the design, I tasked
+                                        myself with translating sketches into code. Furthermore, Bootstrap was used to
+                                        ensure that the website still looks stunning on a mobile device or a vertical
+                                        screen.
+
+                                        <br><br>
+                                        <a href="https://aleksandrakuchta.co.uk">Link to the website</a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row p-0 m-0 pt-5">
+                    <div class="col-md-6">
+                        <div class="project">
+                            <h1>A discord bot</h1>
+                            <div class="row p-0 m-0">
+                                <div class="col-md-6">
+                                    <img src="images/proj2.png" class="imgproject">
+                                </div>
+                                <div class="col-md-6 projecttext">
+                                    <p>
+                                        To further expand my knowledge in python and APIs, I developed a fully
+                                        functional bot that creates embedded messages. Although the task might seem not
+                                        that hard, I gave myself a requirement that the system must have
+                                        professional-grade exception catching and an interface that will make it very
+                                        easy to use by someone less fluent in command based interaction. This made the
+                                        project a much bigger project with extensive testing and a steep learning curve.
+                                        Even though it was my third discord bot this one was the most challenging and I
+                                        have learned a lot from writing it.
+                                        <br>
+                                        <br>
+                                        <a href="https://discord.com/api/oauth2/authorize?client_id=819208892834644008&permissions=0&scope=bot">Link for inviting the bot</a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="project">
+                            <h1>DIY AndroidAuto Car Infotainment</h1>
+                            <div class="row p-0 m-0">
+                                <div class="col-md-6">
+                                    <img src="images/proj1.png" class="imgproject">
+                                </div>
+                                <div class="col-md-6 projecttext">
+                                    <p>
+                                        A project that I did during the first lockdown, was creating an AndroidAuto
+                                        based infotainment system for my Dads car. This project gave me a chance to work
+                                        with Linux, Python, RaspberryPi, 3D printing and design (in Blender), soldering,
+                                        relays and electronics in general. It had all features of a full AndroidAuto
+                                        experience including wake on Ignition, separate volume adjustment and a
+                                        touchscreen. Because I was only using the most basic electronic components
+                                        possible this allowed me to design and create electrical circuits.
+                                        Furthermore, a lot of parts were 3D printed and I had to ensure that components
+                                        that I created were shake and heat resistant so they can survive in a car
+                                        environment.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-1">
+            </div>
+        </div>
     </div>
 </body>
 

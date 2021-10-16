@@ -45,9 +45,12 @@
 }
 .white_text{
     font-family: 'Gemunu Libre', sans-serif;
-    padding: 7% 1% 7% 1%;
+    padding: 4% 1% 4% 1%;
     font-family: 'Mulish', sans-serif;
     font-size: 120%;
+}
+.white_text h2{
+    font-size: 400%;
 }
 #experience{
     background-image: url(experience.png);
@@ -70,11 +73,10 @@
     padding: 3% 3% 2% 3%;
     font-size: 110%;
     font-family: 'Montserrat', sans-serif;
-    border: 3px solid rgb(53, 0, 0);
     border-radius: 3%;
     margin: 1%;
     background-color: rgba(255, 255, 255, 0.459);
-    box-shadow: 5px 10px rgba(0, 0, 0, 0.432);
+    box-shadow: 5px 10px rgba(0, 0, 0, 0.288);
 }
 #skills{
     background-color: #16c2cb;
@@ -97,8 +99,27 @@
     color: rgb(0, 0, 0);
     font-size: 130%;
     font-family: 'Montserrat', sans-serif;
-    border: 3px solid rgb(53, 0, 0);
     border-radius: 3%;
     background-color: rgba(255, 255, 255, 0.459);
     box-shadow: 5px 10px rgba(0, 0, 0, 0.432);
+}
+#projects{
+    text-align: center;
+}
+.project{
+    margin-top: 2%;
+    padding: 1%;
+    background-color: rgba(0, 0, 0, 0.075);
+    box-shadow: 10px 10px rgba(0, 0, 0, 0.432);
+}
+.project h1{
+    padding: 3% 0% 3% 0%;
+}
+.imgproject{
+    width: 100%;
+    padding-bottom: 5%;
+}
+.projecttext{
+    font-size: 100%;
+    text-align:justify;
 }
