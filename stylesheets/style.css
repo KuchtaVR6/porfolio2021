@@ -168,8 +168,8 @@
     right: 0;
     width: 0;
     height: 0;
-    border-bottom: 4vw solid rgba(136, 136, 136, 0.747);
-    border-left: 4vw solid transparent;
+    border-bottom: 5vw solid rgba(136, 136, 136, 0.747);
+    border-left: 5vw solid transparent;
     margin: 0%;
 }
 .totop{
@@ -182,6 +182,11 @@
 }
 .triangle:hover .totop{
     opacity: 100%;
+}
+.date{
+    font-style: italic;
+    float: right;
+    font-size: 80%;
 }
 /*
     Previous commit was failed
