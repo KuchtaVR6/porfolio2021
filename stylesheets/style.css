@@ -168,20 +168,20 @@
     right: 0;
     width: 0;
     height: 0;
-    border-bottom: 8vw solid rgba(136, 136, 136, 0.747);
-    border-left: 8vw solid transparent;
+    border-bottom: 4vw solid rgba(136, 136, 136, 0.747);
+    border-left: 4vw solid transparent;
     margin: 0%;
 }
 .totop{
     position: absolute;
     top: 50%;
     left: 50%;
-    width: 30%;
+    width: 40%;
     padding: 0%;
-    display: none;
+    opacity: 10%;
 }
 .triangle:hover .totop{
-    display:block;
+    opacity: 100%;
 }
 /*
     Previous commit was failed
