@@ -168,7 +168,7 @@
     right: 0;
     width: 0;
     height: 0;
-    border-bottom: 8vw solid rgba(104, 104, 104, 0.747);
+    border-bottom: 8vw solid rgba(136, 136, 136, 0.747);
     border-left: 8vw solid transparent;
     margin: 0%;
 }
@@ -186,4 +186,6 @@
 /*
     Previous commit was failed
     adding this line to try again
+
+    Failed commit trying
 */
