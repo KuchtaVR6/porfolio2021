@@ -84,8 +84,8 @@
             <div class="col-md-5 white_text">
                 <p style="text-align:left;">
                     Second year student at Queen Mary University, London
-                    <span style="float:right; font-size: 80%;">
-                        <i>Since September 2020</i>
+                    <span class="date">
+                        Since September 2020
                     </span><br>
                     Course: (BSc) Computer Science <br>
                     • First year’s average mark at 89% <br>
@@ -94,8 +94,8 @@
                 <hr>
                 <p style="text-align:left;">
                     Jan Zamoyski High School, Warsaw
-                    <span style="float:right;">
-                        <b>2017 - 2020</b>
+                    <span class="date">
+                        2017 - 2020
                     </span><br>
                     • Class with extended Mathematics, IT and Physics
                 </p>
@@ -122,8 +122,8 @@
                         <div class="binner">
                             <p style="text-align:left; ">
                                 <b>Demonstrator at Queen Mary University in London</b>
-                                <span style="float:right; font-size: 80%;">
-                                    <b><i>Since September 2021</i></b>
+                                <span class="date">
+                                    <b>Since September 2021</b>
                                 </span><br>
                                 <hr>
                                 <b>
@@ -139,7 +139,7 @@
                         <div class="binner">
                             <p style="text-align:left;">
                                 <b>Customer Assistant at Morrisons in London</b>
-                                <span style="float:right;">
+                                <span class="date">
                                     <b>Since September 2020</b>
                                 </span><br>
                                 <hr>
@@ -159,7 +159,7 @@
                         <div class="binner">
                             <p style="text-align:left;">
                                 <b>Coding Tutor at Kodland in London</b>
-                                <span style="float:right;">
+                                <span class="date">
                                     <b>May - August 2021</b>
                                 </span><br>
                                 <hr>
@@ -173,7 +173,7 @@
                         <div class="binner mt-5">
                             <p style="text-align:left;">
                                 <b>Customer Assistant at McDonald’s Restaurant, Warsaw</b>
-                                <span style="float:right;">
+                                <span class="date">
                                     <b>June – August 2018</b>
                                 </span><br>
                                 <hr>
@@ -210,32 +210,32 @@
             <div class="col-md-4 white_text">
                 <p style="text-align:left;">
                     IELTS Academic C1
-                    <span style="float:right;">
-                        <b>2020</b>
+                    <span class="date">
+                        2020
                     </span><br>
                     Listening: 9.0, Reading: 8.0, Writing: 6.5, Speaking: 7.0, Overall: 7.5
                 </p>
                 <hr>
                 <p style="text-align:left;">
                     Project Management Principles
-                    <span style="float:right;">
-                        <b>2019</b>
+                    <span class="date">
+                        2019
                     </span>
                 </p>
             </div>
             <div class="col-md-4 white_text">
                 <p style="text-align:left;">
                     Full EU Driver’s License
-                    <span style="float:right;">
-                        <b>2015 and 2019</b>
+                    <span class="date">
+                        2015 and 2019
                     </span><br>
                     AM and B Categories.
                 </p>
                 <hr>
                 <p style="text-align:left;">
                     Project Management Fundamentals
-                    <span style="float:right;">
-                        <b>2019</b>
+                    <span class="date">
+                        2019
                     </span>
                 </p>
             </div>
@@ -255,28 +255,28 @@
                 </p>
                 <div class="row p-0 m-0 binner">
                     <div class="col-md-3">
-                            <img src="images/java.png" class="skillico" alt="java">
+                        <img src="images/java.png" class="skillico" alt="java">
                     </div>
                     <div class="col-md-3">
-                            <img src="images/python.png" class="skillico" alt="python">
+                        <img src="images/python.png" class="skillico" alt="python">
                     </div>
                     <div class="col-md-3">
-                            <img src="images/cpp.png" class="skillico" alt="cpp">
+                        <img src="images/cpp.png" class="skillico" alt="cpp">
                     </div>
                     <div class="col-md-3">
-                            <img src="images/sql.png" class="skillico" alt="sql">
+                        <img src="images/sql.png" class="skillico" alt="sql">
                     </div>
                     <div class="col-md-3">
-                            <img src="images/javascript.png" class="skillico" alt="javascript">
+                        <img src="images/javascript.png" class="skillico" alt="javascript">
                     </div>
                     <div class="col-md-3">
-                            <img src="images/php.png" class="skillico" alt="php">
+                        <img src="images/php.png" class="skillico" alt="php">
                     </div>
                     <div class="col-md-3">
-                            <img src="images/html.png" class="skillico" alt="html">
+                        <img src="images/html.png" class="skillico" alt="html">
                     </div>
                     <div class="col-md-3">
-                            <img src="images/css.png" class="skillico" alt="css">
+                        <img src="images/css.png" class="skillico" alt="css">
                     </div>
                 </div>
                 <p class="smallhead">
@@ -389,7 +389,7 @@
                                     the compatibility argument.
                                     <br>
                                     <br>
-                                    <a href="">Go back to the top</a>
+                                    <a href="">Go back to the top</a><br>
                                     <a href="https://github.com/KuchtaVR6/porfolio">Github repository</a>
                                 </p>
                             </div>
@@ -409,13 +409,13 @@
                                     Architect. The design was a vital part of the whole experience as an Architect
                                     needs to exhibit their design language. The creation of this website involved
                                     using HTML, CSS and Javascript. Javascript is mainly used for the integrated
-                                    gallery view of each project. Whilst I didn't come up with the design, I tasked
-                                    myself with translating sketches into code. Furthermore, Bootstrap was used to
+                                    gallery view of each project. Whilst I didn't come up with the design, I was tasked
+                                    with translating sketches into code. Furthermore, Bootstrap was used to
                                     ensure that the website still looks stunning on a mobile device or a vertical
                                     screen.
 
                                     <br><br>
-                                    <a href="https://aleksandrakuchta.co.uk">Link to the website</a>
+                                    <a href="https://aleksandrakuchta.co.uk">Link to the website</a><br>
 
                                     <a href="https://github.com/KuchtaVR6/kuchtavr6.github.io">Github repository</a>
                                 </p>
@@ -436,8 +436,8 @@
                                     functional bot that creates embedded messages. Although the task might seem not
                                     that hard, I gave myself a requirement that the system must have
                                     professional-grade exception catching and an interface that will make it very
-                                    easy to use by someone less fluent in command based interaction. This made the
-                                    project a much bigger project with extensive testing and a steep learning curve.
+                                    easy to use by someone less fluent in command based interaction. This made it a much
+                                    bigger project with extensive testing and a steep learning curve.
                                     Even though it was my third discord bot this one was the most challenging and I
                                     have learned a lot from writing it.
                                     <br>
