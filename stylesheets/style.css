@@ -3,6 +3,12 @@
       scroll-behavior: smooth;
     }
   }
+#floatingmenu{
+    position: fixed;
+    z-index: 2;
+    bottom: 0;
+    right: 0;
+}
 #intro{
     min-height: 100vh;
     background-image: url(background.png);
@@ -12,26 +18,35 @@
     color: rgb(255, 255, 255);
     font-family: 'Montserrat', sans-serif;
 }
-.button-13 {
-  background-color: rgba(255, 255, 255, 0.432);
-  border: 1px solid #d5d9d9;
+#intro p{
+    line-height: 1.5;
+}
+.jumpto{
+  font-weight: bold;
+  /*background-color: rgba(255, 255, 255, 0.171);
+  border: 1px solid #4d4d4d;
   border-radius: 10px;
   box-shadow: rgba(213, 217, 217, .5) 0 2px 5px 0;
+  */
   box-sizing: border-box;
-  color: #ffffff;
+  color: #fdfdfd;
   cursor: pointer;
   display: inline-block;
   font-family: "Montserrat",sans-serif;
   font-size: 100%;
-  padding: 1.5%;
+  margin: 4 px;
+  padding: 5px;
   text-decoration: none;
   text-align: center;
   vertical-align: middle;
   font-weight: bold;
 }
-.button-13:hover {
-  background-color: #f7fafa;
+.jumpto:hover {
+  background-color: rgba(255, 255, 255, 0.9);
   text-decoration: none;
+}
+.jumpto img{
+    width: 3vw;
 }
 #intro h1{
     font-size: 230%;
@@ -43,11 +58,17 @@
     padding-right: 2%;
     padding-bottom: 3%;
 }
+#education .white_text{
+    margin-top: 7%;
+    margin-bottom: 6%;
+}
 .white_text{
-    font-family: 'Gemunu Libre', sans-serif;
-    padding: 4% 1% 4% 1%;
     font-family: 'Mulish', sans-serif;
+    padding: 4% 2% 4% 2%;
     font-size: 120%;
+}
+#certification .white_text{
+    padding: 10% 5% 10% 5%;
 }
 .white_text h2{
     font-size: 400%;
@@ -61,22 +82,32 @@
 }
 .colour_head{
     text-align: center;
-    padding: 2% 0% 1% 0%;
-    font-family: 'Gemunu Libre', sans-serif;
-    font-size: 400%;
+    padding: 10% 0% 1% 0%;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 370%;
+}
+#skills p{
+    text-align: center;
+    padding: 3% 0% 3% 0%;
+    font-size: 200%;
+    font-family: 'Montserrat', sans-serif;
 }
 #exp_text{
-    padding: 0% 10% 0% 10%;
+    padding: 3% 20% 3% 20%;
+    line-height: 2;
+    font-weight: 600;
+    font-family: 'Montserrat', serif;
 }
 .binner{
     color: rgb(0, 0, 0);
-    padding: 3% 3% 2% 3%;
+    padding: 6% 3% 6% 3%;
     font-size: 110%;
+    line-height: 2;
     font-family: 'Montserrat', sans-serif;
     border-radius: 3%;
-    margin: 1%;
-    background-color: rgba(255, 255, 255, 0.459);
-    box-shadow: 5px 10px rgba(0, 0, 0, 0.288);
+    margin: 3%;
+    background-color: rgba(255, 255, 255, 0.8);
+    box-shadow: 20px 20px rgba(0, 0, 0, 0.288);
 }
 #skills{
     background-color: #16c2cb;
@@ -87,10 +118,12 @@
 }
 .skillico{
     width: 100%;
+    padding: 20%;
 }
 #minorskills{
-    align-items: center;
-    margin: 0% 5% 0% 5%;
+    padding: 0% auto;
+    margin-left: 5%;
+    margin-bottom: 10%;
 }
 .smallcont{
     display: inline-block;
@@ -103,17 +136,23 @@
     background-color: rgba(255, 255, 255, 0.459);
     box-shadow: 5px 10px rgba(0, 0, 0, 0.432);
 }
+.smallhead{
+    padding-top: 4% !important;
+}
+.languages .binner{
+    padding: 8% 20% 8% 20%;
+}
 #projects{
     text-align: center;
 }
 .project{
-    margin-top: 2%;
+    margin-top: 4%;
+    margin-bottom: 4%;
     padding: 1%;
-    background-color: rgba(0, 0, 0, 0.075);
-    box-shadow: 10px 10px rgba(0, 0, 0, 0.432);
 }
 .project h1{
     padding: 3% 0% 3% 0%;
+    font-size: 350%;
 }
 .imgproject{
     width: 100%;
@@ -122,6 +161,27 @@
 .projecttext{
     font-size: 100%;
     text-align:justify;
+}
+.triangle
+{
+    bottom: 0;
+    right: 0;
+    width: 0;
+    height: 0;
+    border-bottom: 8vw solid rgba(104, 104, 104, 0.747);
+    border-left: 8vw solid transparent;
+    margin: 0%;
+}
+.totop{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 30%;
+    padding: 0%;
+    display: none;
+}
+.triangle:hover .totop{
+    display:block;
 }
 /*
     Previous commit was failed
